@@ -63,7 +63,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.lijiext.wiki.WikiApplication</mainClass>
+                    <mainClass>com.lijiext.wiki.config.WikiApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
