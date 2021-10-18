@@ -1,6 +1,7 @@
 package com.lijiext.wiki.config;
 
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -10,6 +11,7 @@ import org.springframework.core.env.Environment;
 
 @ComponentScan("com.lijiext.wiki")
 @SpringBootApplication
+@MapperScan("com.lijiext.wiki.mapper")
 public class WikiApplication {
     public static final Logger LOG = LoggerFactory.getLogger(WikiApplication.class);
 
